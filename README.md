@@ -17,7 +17,7 @@ Algoritma Fisher-Yates diterapkan pada *array* kumpulan pertanyaan kuis. Saat pe
 
 ## 🛠️ Teknologi yang Digunakan
 * **Platform:** Android
-* **Bahasa Pemrograman:** Java / Kotlin *(Pilih salah satu sesuai yang kamu gunakan)*
+* **Bahasa Pemrograman:** Java*
 * **Tools:** Android Studio
 * **Desain Antarmuka:** XML (Android Layout)
 
