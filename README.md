@@ -1,4 +1,4 @@
-# Game-Edukasi-Bahasa-Jawa-Android
+# Game Edukasi Bahasa Jawa Android
 Aplikasi Android Game Edukasi Pengenalan Nama Hewan dalam Bahasa Jawa menggunakan Algoritma Fisher-Yates Shuffle.
 
 # 🐾 Game Edukasi Pengenalan Hewan (Bahasa Jawa) - Android
