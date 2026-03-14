@@ -25,5 +25,5 @@ Algoritma Fisher-Yates diterapkan pada *array* kumpulan pertanyaan kuis. Saat pe
 *(Tambahkan gambar screenshot aplikasimu di sini dengan cara drag & drop gambarnya)*
 
 ## 📥 Coba Aplikasi (Download)
-Anda dapat mengunduh dan mencoba langsung aplikasi ini di perangkat Android Anda melalui file `.apk` berikut:
-* [Download Game Edukasi (.apk) di sini] *(https://drive.google.com/file/d/1ZR_ZYxi7sesAVU0FgVW1czmgRdAkNOy1/view?usp=drive_link)*
+Anda dapat mengunduh dan mencoba langsung aplikasi ini di perangkat Android Anda melalui file `.apk`.
+
