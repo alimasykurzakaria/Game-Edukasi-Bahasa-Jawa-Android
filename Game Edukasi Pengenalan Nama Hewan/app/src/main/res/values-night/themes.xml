@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Dark Mode -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Menambahkan custom spinner style untuk mode gelap -->
+        <item name="android:spinnerItemStyle">@style/CustomSpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/CustomSpinnerDropdownItem</item>
+
+        <!-- Customizing primary text color for dark mode -->
+        <item name="android:textColorPrimary">@color/textColorPrimaryDark</item> <!-- Gunakan warna teks gelap -->
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" >
+        <item name="android:textColor">@color/alwaysBlack</item>
+    </style>
+</resources>

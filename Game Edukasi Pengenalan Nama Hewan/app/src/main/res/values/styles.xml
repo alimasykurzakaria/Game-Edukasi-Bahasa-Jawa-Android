@@ -1,0 +1,29 @@
+<resources>
+    <!-- Custom style untuk Spinner item -->
+    <style name="CustomSpinnerItem" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/textColorPrimary</item> <!-- Gunakan warna dari colors.xml -->
+    </style>
+
+    <!-- Custom style untuk Spinner dropdown item -->
+    <style name="CustomSpinnerDropdownItem" parent="Widget.AppCompat.Spinner.DropDown">
+        <item name="android:textColor">@color/textColorPrimary</item> <!-- Gunakan warna dari colors.xml -->
+        <item name="android:background">?android:attr/windowBackground</item>
+    </style>
+
+    <style name="BlackTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/alwaysBlack</item>
+    </style>
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AlertButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AlertButtonStyle</item>
+    </style>
+
+    <style name="AlertButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+</resources>

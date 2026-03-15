@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmngames"
+    tools:context=".PlayActivity">
+
+    <!-- Button for Game Quiz -->
+    <Button
+        android:id="@+id/btnquiz"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Game Quiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642" />
+
+    <!-- Button for Drag and Drop Game -->
+    <Button
+        android:id="@+id/btndraganddrop"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Game Tahan Dan Tarik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642" />
+
+    <!-- ImageButton for Game Quiz -->
+
+    <!-- ImageButton for Drag and Drop Game -->
+    <ImageButton
+        android:id="@+id/imgbtnquiz"
+        android:layout_width="180dp"
+        android:layout_height="125dp"
+        android:background="@drawable/quiz"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnquiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/imgbtndnd"
+        android:layout_width="180dp"
+        android:layout_height="125dp"
+        android:background="@drawable/dd"
+        app:layout_constraintBottom_toTopOf="@+id/btndraganddrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <!-- Warna untuk mode terang -->
+    <color name="black">#FF000000</color> <!-- Untuk teks pada mode terang -->
+    <color name="white">#FFFFFFFF</color> <!-- Untuk teks pada mode gelap -->
+    <color name="textColorPrimary">#000000</color> <!-- Teks utama untuk mode terang -->
+    <color name="textColorPrimaryDark">#FFFFFF</color> <!-- Teks utama untuk mode gelap -->
+    <!-- Warna untuk tema gelap -->
+    <color name="blur_color_dark">#000000</color> <!-- Sesuaikan dengan warna yang diinginkan -->
+
+    <color name="alwaysBlack">#000000</color>
+
+    <!-- Warna untuk tema terang -->
+    <color name="blur_color_light">#FFFFFF</color> <!-- Sesuaikan dengan warna yang diinginkan -->
+
+
+</resources>

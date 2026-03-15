@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Light Mode -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Menambahkan custom spinner style untuk mode terang -->
+        <item name="android:spinnerItemStyle">@style/CustomSpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/CustomSpinnerDropdownItem</item>
+
+        <!-- Customizing primary text color for light mode -->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item> <!-- Gunakan warna teks terang -->
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" >
+        <item name="android:textColor">@color/alwaysBlack</item>
+    </style>
+</resources>
